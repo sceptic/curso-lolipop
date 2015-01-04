@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="curso1title">Curso de Programación con PhoneGap</string>
+    <string name="curso1description">El objetivo del curso es introducir al alumno en el desarrollo de aplicaciones móviles con el framework multiplataforma de Phonegap, lo que le permitirá desarrollar una única vez la aplicación y poder ejecutarla en distintos entornos con sencillez: iPhone, Android, WP, etc…</string>
+    <drawable name="curso1drawable">@drawable/phonegap</drawable>
+    <string name="curso1url">http://www.imaginaformacion.com/formacion-online/phonegap-2/</string>
+
+    <string name="curso2title">Curso online de desarrollo en iOS 8</string>
+    <string name="curso2description">El curso de desarrollo de aplicaciones en iOS 8 de iPhone/iPad será el impulso que necesitas para desarrollar todo tipo de aplicaciones para los dispositivos de Apple, tanto iPhone como iPad y que tienen la mayor cuota de mercado en aplicaciones móviles.</string>
+    <drawable name="curso2drawable">@drawable/ios8</drawable>
+    <string name="curso2url">http://www.imaginaformacion.com/formacion-online/curso-online-de-desarrollo-en-ios-8/</string>
+
+    <string name="curso3title">Curso Online HTML5 y CSS3</string>
+    <string name="curso3description">En HTML5 se construye la web 2.0. Geolocalización, video, audio, streaming, nuevos componentes y etiquetas. Dirigido a aquellos que quieran formarse en el mundo de las aplicaciones web.</string>
+    <drawable name="curso3drawable">@drawable/html5css3</drawable>
+    <string name="curso3url">http://www.imaginaformacion.com/formacion-online/curso-online-html5-y-css3/</string>
+
+    <string name="curso4title">Curso Online de Android Avanzado</string>
+    <string name="curso4description">El próximo curso Avanzado de Android, te permitirá desarrollar aplicaciones para la plataforma móvil con más terminales del mercado.</string>
+    <drawable name="curso4drawable">@drawable/androidadv</drawable>
+    <string name="curso4url">http://www.imaginaformacion.com/formacion-online/curso-online-de-desarrollo-en-android-avanzado/</string>
+
+    <string name="curso5title">Curso Online Desarrollo en iOS 8 Avanzado</string>
+    <string name="curso5description">El curso de desarrollo de aplicaciones en iOS 8 de iPhone/iPad será el impulso que necesitas para desarrollar todo tipo de aplicaciones para los dispositivos de Apple, tanto iPhone como iPad y que tienen la mayor cuota de mercado en aplicaciones móviles.</string>
+    <drawable name="curso5drawable">@drawable/ios8adv</drawable>
+    <string name="curso5url">http://www.imaginaformacion.com/formacion-online/curso-online-desarrollo-en-ios-8-avanzado/</string>
+
+    <string name="curso6title">Curso Online de Symfony</string>
+    <string name="curso6description">Aprender a construir aplicaciones Web con PHP profesionales a través de las principales técnicas y herramientas de software para desarrollar aplicaciones Web con el framework Symfony.</string>
+    <drawable name="curso6drawable">@drawable/symphony</drawable>
+    <string name="curso6url">http://www.imaginaformacion.com/formacion-online/curso-online-de-symfony/</string>
+
+</resources>
