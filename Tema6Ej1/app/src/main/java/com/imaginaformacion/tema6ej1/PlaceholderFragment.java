@@ -24,6 +24,12 @@ public class PlaceholderFragment extends Fragment {
         //TODO Crear un nuevo Bundle para ese fragment.
         //TODO Almacenar un entero con la clave ARG_SECTION_NUMBER yel valor sectionNumber
         //TODO Añade el bundle al fragment como Argumentos
+
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+        fragment.setArguments(args);
+
+
         return fragment;
     }
 
@@ -39,6 +45,10 @@ public class PlaceholderFragment extends Fragment {
 
         //TODO Obtén el valor entero almacenado en los argumentos del fragment que corresponde a ARG_SECTION_NUMBER
         //TODO Obtén el ArrayList<Curso> usando DataManager.getInstance().getData(context, El numero de selección)
+        selection = getArguments().getInt(ARG_SECTION_NUMBER);
+        cursos = DataManager.getInstance().getData(getActivity(), selection);
+
+
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         MyRecyclerAdapter adapter = new MyRecyclerAdapter(getActivity(), cursos, R.layout.card);
         recyclerView.setHasFixedSize(true);
